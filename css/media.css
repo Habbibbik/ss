@@ -1,0 +1,794 @@
+@media (max-width: 1440px) {
+  .about-us__info {
+    flex-direction: column;
+  }
+
+  .about-us__left {
+    margin-right: 0;
+    max-width: 100%;
+    margin-bottom: 32px;
+  }
+
+  .about-us__info-right {
+    max-width: 100%;
+  }
+
+  .about-us__card {
+    max-width: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer__block3{
+    display: none;
+  }
+}
+
+/* 1024 */
+@media (max-width: 1200px) {
+
+  .container {
+    padding: 0 50px;
+  }
+
+  .header {
+    padding: 26px 0;
+  }
+
+  .logo {
+    margin-right: 0;
+  }
+
+  .header__nav {
+    margin-right: 0;
+  }
+
+  .nav__lists {
+    gap: 60px;
+  }
+
+  .calculation {
+    padding-top: 39px;
+    padding-bottom: 13px;
+  }
+
+  .calculation__content {
+    padding: 160px 77px;
+    background-image: url("../img/p1024.jpg");
+  }
+
+  .heading {
+    font-size: 60px;
+    line-height: 73px;
+    margin-bottom: 16px;
+  }
+
+  .calculation__text {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 59px;
+    max-width: 660px;
+  }
+
+  .btn__calculation {
+    font-size: 24px;
+    line-height: 29.26px;
+    padding: 24px 34px;
+  }
+
+  .about-us__left {
+    min-height: 640px;
+    background-image: url("../img/c1024.jpg");
+  }
+
+  .about-us__text {
+    margin-bottom: 60px;
+  }
+
+  .about-us__card {
+    padding: 60px 153px 62px 317px;
+    background-position: 77px;
+  }
+
+
+  .about-us__btn {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 16px 35px;
+  }
+
+  .about-us__card-text {
+    max-width: 450px;
+  }
+
+  .stages {
+    padding-top: 26px;
+    padding-bottom: 31px;
+  }
+
+  .stages__text {
+    width: 100%;
+  }
+
+  .stages__flex {
+    justify-content: left;
+    gap: 43px;
+  }
+
+  .stages__section-title{
+    margin-bottom: 34px;
+  }
+  .stages__text--margin{
+    margin-bottom: 24px;
+  }
+
+
+  .stages__flex::after {
+    background-image: url("../img/Rectangle8.jpg");
+    background-repeat: no-repeat;
+    min-height: 689px;
+    width: 100%;
+    max-width: none;
+    margin-top: 12px;
+  }
+
+  .btn_stages {
+    padding: 19px 38px;
+    min-height: 60px;
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: 30px;
+  }
+
+  .btn_stages2 {
+    padding: 19px 38px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .questions{
+    padding-bottom: 77px;
+  }
+
+  .questions__section__title{
+    margin-bottom: 27px;
+  }
+
+  .questions__flex {
+    flex-direction: column;
+  }
+
+  .questions__info{
+    width: 100%;
+    padding-bottom: 31px;
+  }
+
+  .questions__text{
+    max-width: none;
+    min-height: none;
+  }
+
+  .footer{
+    padding: 44px 0;
+  }
+
+  .footer__logo{
+    padding-top: 8px;
+    margin-bottom: 16px;
+  }
+
+  .footer__block1{
+    margin-right: 128px;
+    max-width: 251px;
+    width: 100%;
+  }
+
+  .footer__block2{
+    margin-right: 0;
+    margin-top: 11px;
+  }
+
+  .footer__block2-title{
+    margin-bottom: 23px;
+  }
+
+  .footer__block__flex{
+    gap: 4px;
+  }
+
+  .footer__block3{
+    display: none;
+  }
+
+  .input{
+    margin-bottom: 24px;
+    padding: 0 23px;
+  }
+
+  .textarea{
+    padding-top: 19px;
+    margin-bottom: 28px;
+    padding: 22px 29px 19px 24px;
+  }
+
+  .footer__btn{
+font-size: 16px;
+font-weight: 700;
+line-height: 19.5px;
+padding: 19px 37px;
+  }
+}
+
+
+/* 768 */
+@media (max-width: 992px) {
+
+  .header {
+    padding: 17px 0;
+  }
+
+  .btn__calculation {
+    font-size: 23px;
+    line-height: 28.26px;
+    padding: 24px 39px;
+    padding-right: 40px;
+}
+
+  .nav__lists {
+    gap: 40px;
+  }
+
+  .nav__link {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .calculation{
+    padding-top: 41px;
+  }
+
+  .calculation__content {
+    padding: 160px 40px;
+    background-image: url("../img/p768.jpg");
+    border-radius: 16px;
+  }
+
+  .heading {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .about-us__left {
+    min-height: 650px;
+    margin-bottom: 32px;
+    background-image: url("../img/c768.jpg");
+    border-radius: 16px;
+  }
+
+  .about-us__card{
+    min-height: 1px;
+  }
+
+  .stages{
+    padding-top: 31px;
+  }
+
+  .stages__flex{
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  .stages__flex::after{
+    background-image: url("../img/Rectangle18.jpg");
+    min-height: 284px;
+    border-radius: 22px;
+  }
+
+  .btn_stages{
+    margin-right: 31px;
+  }
+
+  .btn_stages2{
+    padding: 20px 37px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .stages__text--margin{
+    margin-bottom: 21px;
+  }
+
+  .calculation__text {
+    max-width: 588px;
+    line-height: 22px;
+    font-size: 18px;
+  }
+
+  .about-us__text {
+    margin-bottom: 55px;
+  }
+
+  .about-us__right {
+    padding: 35px 48px 35px 170px;
+  }
+
+
+
+  .about-us__card--img1 {
+    background-image: url("../img/Frame1.jpg");
+    background-position: 40px;
+  }
+
+  .about-us__card--img2 {
+    background-image: url("../img/Frame2.jpg");
+    background-position: 40px;
+  }
+
+  .about-us__card-text{
+    font-size: 16px;
+  }
+  .about-us__card {
+    padding: 33px 44px 35px 170px;
+    border-radius: 25px;
+  }
+
+  .about-us__btn {
+    font-size: 16px;
+    line-height: 19.5px;
+    padding: 17px 36px;
+  }
+
+  .about-us__border {
+    gap: 20px ;
+    padding: 34px 40px;
+    padding-right: 38px;
+  }
+
+  .stages__section-title {
+    margin-bottom: 17px;
+  }
+
+
+  .footer{
+    padding-top: 52px;
+  }
+
+  .footer__block2{
+    margin-bottom: 38px;
+    margin-top: 0;
+  }
+
+  .footer__block__flex{
+    flex-direction: column-reverse;
+  }
+
+   .footer__nav{
+    display: none;
+  }
+
+  .footer__btn{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.5px;
+    padding: 19px 37px;
+  }
+
+  .questions{
+    padding-top: 19px;
+    padding-bottom: 81px;
+  }
+
+  .questions__section__title {
+    margin-bottom: 32px;
+  }
+
+  .questions__info{
+    padding: 33px 40px;
+  }
+
+  .questions__text{
+    min-height: 1px;
+  }
+
+  .questions__flex{
+    gap: 34px;
+  }
+
+  .textarea{
+    margin-bottom: 25px;
+    margin-top: 0px;
+    padding-top: 19px;
+    max-width: 537px;
+  }
+
+  .footer__logo{
+    margin-bottom: 10px;
+  }
+
+  .input{
+    padding: 0;
+    max-width: 539px;
+    padding-left: 24px;
+    margin-bottom: 26px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .nav__lists {
+    gap: 24px;
+  }
+
+  .stages__flex {
+    flex-direction: column-reverse;
+
+  }
+
+  .stages__flex::after {
+    background-position: top;
+    max-width: 668px;
+    min-height: 284px;
+    background-image: url("../img/Rectangle18.jpg");
+    margin: 0;
+  }
+
+  .stages__info {
+    padding-top: 38px;
+    max-width: 667px;
+  }
+
+  .stages__text {
+    max-width: 667px;
+    margin-right: 0;
+  }
+
+  .btn_stages {
+    padding: 20px 38px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .btn_stages2 {
+    padding: 20px 38px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+
+}
+
+/* 320 */
+@media (max-width: 590px) {
+
+  .header{
+    padding-bottom: 37px
+  }
+  .calculation {
+    padding-top: 20px;
+    padding-bottom: 38px;
+  }
+
+  .header {
+    padding-bottom: 37px;
+    margin-bottom: 0px;
+    border-radius: 0px 0px 16px 16px;
+  }
+
+  .header__nav {
+    order: 3;
+    width: 100%;
+    padding-top: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+
+  .nav__list {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .calculation__content {
+    padding: 60px 21px 59px 22px;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+    background-image: url("../img/p320.jpg");
+  }
+
+  .heading {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 7px;
+    max-width: 247px;
+  }
+
+  .calculation__text {
+    max-width: 247px;
+    line-height: 15px;
+    font-size: 12px;
+    margin-bottom: 32px;
+  }
+
+  .about-us {
+    padding-bottom: 30px;
+  }
+
+  .about-us__title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+  }
+
+  .about-us__text {
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 14px;
+  }
+
+  .about-us__border {
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 0;
+  }
+
+  .about-us__info-text {
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 12px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 11px;
+    max-width: 100%;
+  }
+
+  .btn {
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 12px 28px;
+  }
+
+  .about-us__btn{
+font-size: 12px;
+font-weight: 700;
+line-height: 14.63px;
+padding: 10px 42px;
+  }
+
+  .about-us__left {
+    background-image: none;
+    min-height: fit-content;
+    flex-direction: column;
+  }
+
+  .about-us__left::before {
+    content: '';
+    min-height: 200px;
+    width: 100%;
+    background-image: url("../img/Rectangle2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    margin-bottom: 8px;
+  }
+
+  .about-us__card {
+    border: 0;
+    padding: 0;
+    padding-top: 61px;
+    min-height: 140px;
+  }
+
+  .about-us__card--img1 {
+    background-position: 0 top;
+    background-image: url("../img/Frame39.svg");
+  }
+
+  .about-us__card--img2 {
+    background-position: 0 top;
+    background-image: url("../img/Frame38.svg");
+  }
+
+  .about-us__title-info {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    margin-bottom: 4px;
+  }
+
+  .about-us__card-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 100%;
+  }
+
+  .about-us__btn {
+    color: #FF9900;
+  }
+
+  .btn_stages {
+    padding: 12px 44px;
+    font-size: 12px;
+    line-height: 15px;
+    margin-right: 7px;
+    align-items: center;
+    min-height: 40px;
+  }
+
+  .btn_stages2 {
+    padding: 12px 32px;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+    min-height: 40px;
+  }
+
+  .stages__section-title {
+    margin-bottom: 18px;
+    font-size: 24px;
+    line-height: 29.26px;
+  }
+
+  .stages__flex::after {
+    margin-bottom: 18px;
+    background-image: url("../img/Rectangle.jpg");
+    padding-top: 55%;
+    min-height: 160px;
+    border-radius: 17px;
+  }
+
+  .stages{
+    padding-top: 28px;
+    padding-bottom: 50px;
+  }
+
+  .stages__flex{
+    gap: 0;
+  }
+  .stages__info {
+    padding-top: 0;
+  }
+
+  .stages__title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+
+  }
+
+  .stages__text {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .stages__text--margin{
+    margin-bottom: 24px;
+  }
+
+  .questions{
+    padding-top: 9px;
+    padding-bottom: 60px;
+  }
+
+  .questions__section__title {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 21px;
+  }
+
+  .questions__title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    margin-bottom: 3px;
+  }
+
+  .questions__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .questions__flex{
+    gap: 33px ;
+  }
+
+
+  .questions__info {
+    padding: 0;
+    border: 0;
+  }
+
+  .footer{
+    padding-top: 30px;
+  }
+
+
+  .footer__block2-title{
+font-size: 24px;
+font-weight: 400;
+line-height: 29.26px;
+margin-bottom: 20px;
+  }
+
+  .footer__block2{
+    margin-bottom: 21px;
+  }
+  .footer__block2__botton__block2{
+    flex-direction: column;
+  }
+
+  .footer__btn{
+    padding: 11px 17px;
+font-size: 12px;
+font-weight: 700;
+line-height: 14.63px;
+margin-bottom: 12px;
+margin-left: 22px;
+  }
+
+  .footer__block1{
+    border-top: 1px solid #414141;
+    padding-top: 8px;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__block__flex{
+    align-items: center;
+  }
+
+  .footer__ul-flex{
+    gap: 15px;
+  }
+
+  .footer__block2-botton-block2{
+    flex-direction: column;
+  }
+
+  .footer__block2-title{
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .input{
+    font-size: 14px;
+    line-height: 32px;
+    padding-left: 20px;
+    padding-top: 1px;
+    margin-bottom: 25px;
+  }
+
+  .textarea{
+    font-size: 14px;
+    line-height: 32px;
+    padding-top: 14px;
+    padding-left: 20px;
+    margin-bottom: 21px;
+  }
+
+  .footer__logo{
+    min-height: 42px;
+    max-width: 131px;
+    margin-bottom: 6px;
+  }
+
+  .footer__svg{
+    max-width: 40px;
+    min-height: 40px;
+  }
+
+}
